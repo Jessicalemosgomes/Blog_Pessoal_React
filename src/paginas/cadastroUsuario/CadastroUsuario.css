@@ -1,0 +1,17 @@
+.imagem2{
+    background-image: url(http://g1.globo.com/Noticias/PopArte/foto/0,,14803161-EX,00.jpg);
+    background-repeat: no-repeat; 
+    width: 100vh; 
+    min-height: 100vh; 
+    background-size: cover; 
+    background-position: center; 
+}
+
+
+.textos2{
+    font-weight: bold !important;
+}
+
+.btnCancelar{
+    margin-right: 20px !important;
+}

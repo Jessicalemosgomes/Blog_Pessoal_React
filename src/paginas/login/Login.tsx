@@ -1,10 +1,27 @@
 import { Grid, Box, Typography, TextField, Button } from '@material-ui/core';
-import React from 'react';
+import React, { ChangeEvent, useState } from 'react';
 import { Link } from "react-router-dom";
+import UserLogin from '../../models/UserLogin';
 import './Login.css';
 
 function Login() {
 
+    const [userLogin, setUserLogin] = useState<UserLogin>(
+        {
+            id: 0,
+            usuario: '',
+            senha:'',
+            token: ''
+
+        }
+        )
+
+        function updatedModel(e: ChangeEvent<HTMLInputElement>){
+            setUserLogin({
+                ... userLogin,
+                [e.target.name]: e.target.value
+            })
+        }
     return (
         <Grid container direction='row' justifyContent='center' alignItems='center'>
             <Grid alignItems='center' xs={6}>
@@ -25,9 +42,13 @@ function Login() {
 
                     <Box display='flex' justifyItems='center' marginTop={2}>
                         <Box>
-                            <Typography variant='subtitle1' gutterBottom align ='center'>Ainda não possui uma conta? </Typography>
+                            <Typography variant='subtitle1' gutterBottom align ='center'>Ainda não possui uma conta?</Typography>
                         </Box>
-                        <Typography variant='subtitle1' gutterBottom align ='center' className='textos1'> Cadastre-se</Typography>
+                       
+                        <Link to='/cadastrousuario'> 
+                        <Typography variant='subtitle1' gutterBottom align ='center' className='textos1'>Cadastre-se</Typography>
+                        </Link>
+                        
                     </Box>
                 </Box>
             </Grid>
