@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Box, Card, CardActions, CardContent, Button, Typography } from '@material-ui/core';
-import './ListaTema.css';
+import './ListaPostagem.css';
 
-function ListaTema() {
+function ListaPostagem() {
 
   return (
     <>
@@ -43,4 +43,4 @@ function ListaTema() {
 }
 
 
-export default ListaTema;
+export default ListaPostagem;
