@@ -1,46 +1,125 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+   
+<h1 align="center">
+	<img src="https://auditeste.com.br/wp-content/uploads/2021/02/react-1000x481.jpg"  width="540"><br><br>
+    Blog Artera - Front-End
+</h1>
 
-## Available Scripts
+<div>
+    <p align="center">
+        <em>
+            <br>
+            <br>
+        </em>
+    <a href="https://www.linkedin.com/in/j%C3%A9ssica-lemos-gomes/" target="_blank">
+        <img src="https://img.shields.io/static/v1?label=Author&message=Jessica&color=ff69b4&&style=for-the-badge&logo=LinkedIn" alt="Author: Jéssica">
+    </a>
+    <a href="#">
+        <img src="https://img.shields.io/static/v1?label=Language&message=Typescript&color=blue&style=for-the-badge&logo=Typescript" alt="Language: Typescript">
+    </a>
+   
+    
+</div>
 
-In the project directory, you can run:
+## Table of Contents
 
-### `yarn start`
+<p align="center">
+ <a href="#about">About</a> •
+ <a href="#features">Features</a> •
+ <a href="#revised-concepts">Revised Concepts</a> • 
+ <a href="#installation">Installation</a> • 
+ <a href="#getting-started">Get Started</a> • 
+ <a href="#technologies">Technologies</a> • 
+ <a href="#license">License</a>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 📌About
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<div>
+    <p align="center">
+    <em>
+        Construction of a Personal Blog using React, a project developed at Generation's Bootcamp with the aim of learning.
+    </em>
+    </p>
+</div>
 
-### `yarn test`
+## 🚀Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ <p align="center">
 
-### `yarn build`
+- Creation, Editing and Deletion of Posts, Themes and User.
+- Conditional Rendering.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 👓Revised Concepts
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ <p align="center">
+    
+ </p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React Componentization
+- Redux
+- Axios for Routes Control
+- Stylization using Material-UI
+- API consumption
+- Posts, Themes and User CRUD
+- Custom Alerts
+- Control of Logged Users
 
-### `yarn eject`
+## 📕Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**You must have already installed**
+- [Node.js](https://nodejs.org/en/)
+- [Npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Recommendations**
+-   It is recommended that you have installed Google Chrome or Edge
+-   I recommend using VSCode as development IDE
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**Let's divide it into 3 steps.**
+1. Clone this repository
+2. Install dependencies
+3. Initializing the BackEnd
+  ---
+### 1. Clone this repository
+```
+git clone https://github.com/Jessicalemosgomes/Blog_Pessoal_React.git
+```
+---
+### 2. Install the dependencies
+```
+npm install
+```
+or
+```
+yarn
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+*Make sure your internet is stable, as this may take a while* 
 
-## Learn More
+### 3. Initializing the BackEnd
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you have a ***BackEnd local***, start it before the React Project
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you have a Hosted BackEnd, access the Service file and change the BaseUrl and routes, and change Models of project according to your BackEnd
+
+## 🎮Getting Started
+
+1. Run the backend or configure as explained above 
+
+2. Run the project
+```
+3. yarn start
+```
+4. Now, open your browser and navigate to: http://localhost:4200
+
+## 🌐Technologies
+
+- [React](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Axios](https://axios-http.com/docs/intro)
+- [Material-UI](https://mui.com/pt/)
+
+## 📝License
+
+Released in 2021. This project is under the MIT license. Made with love by [Jessica Lemos](https://github.com/Jessicalemosgomes) 🚀.
+
