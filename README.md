@@ -110,7 +110,7 @@ If you have a Hosted BackEnd, access the Service file and change the BaseUrl and
 ```
 3. yarn start
 ```
-4. Now, open your browser and navigate to: http://localhost:4200
+4. Now, open your browser and navigate to: http://localhost:3000
 
 ## 🌐Technologies
 
